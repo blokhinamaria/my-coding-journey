@@ -1,0 +1,112 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+body {
+    background-color: #23252C;
+    color: white;
+    
+}
+
+main {
+    background-color: #1A1B21;
+    width: 317px;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.image-container {
+    width: 100%;
+    height: 317px;
+    overflow: hidden;
+}
+
+.image-container > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 0.8rem;
+    color: #F3BF99;
+    margin: 0;
+}
+
+a {
+    font-size: 0.65rem;
+    color: #F5F5F5;
+}
+
+.button-container {
+    display: flex;
+    margin-block: 15px;
+    padding-inline: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button {
+    width: 100%;
+    border-radius: 6px;
+    border-width: 1px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-block: 8px;
+    padding-right: 13px;
+    padding-left: 11px;
+}
+
+svg {
+    width: 22px;
+}
+
+.linkedin-button {
+    background-color: #5093E2;
+}
+
+.github-button {
+    background-color: white;
+    color: #1A1B21;
+}
+
+.about {
+    padding-inline: 30px;
+    margin-block: 25px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.64rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #161619;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block-start: 10px;
+}
+
