@@ -7,17 +7,16 @@
 body {
     background-color: #23252C;
     color: white;
-    
 }
 
-main {
+.businessCardMain {
     background-color: #1A1B21;
     width: 317px;
     height: 100%;
     border-radius: 16px;
     overflow: hidden;
+    text-align: center;
 }
-
 
 .image-container {
     width: 100%;

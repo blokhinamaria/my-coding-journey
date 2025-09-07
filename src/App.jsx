@@ -1,5 +1,6 @@
 import './App.css'
 import BusinessCard from './components/BusinessCard/BusinessCard'
+import TravelJournal from './components/TravelJournal/TravelJournal'
 
 function App() {
 
@@ -13,7 +14,11 @@ function App() {
             </li>
           </ul>
       </main> */}
+      <TravelJournal />
+      <hr></hr>
       <BusinessCard />
+      
+      
     </>
   )
 }
