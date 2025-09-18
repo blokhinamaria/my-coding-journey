@@ -1,5 +1,4 @@
 export default function Entry(props) {
-    console.log(props);
 
     return (
         <article className="journalEntry">

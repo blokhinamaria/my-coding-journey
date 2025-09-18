@@ -1,0 +1,42 @@
+.chef-claude-main {
+    width: 600px;
+    height: fit-content;
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff7ee;
+    color: black;
+    
+}
+
+.chef-claude-main > header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-block: 10px;
+}
+
+.chef-claude-main > header > img {
+    width: 50px;
+    margin-inline-end: 10px;
+}
+
+.chef-claude-main > section {
+    margin-block: 20px;
+    width: 100%;
+    padding-inline: 20px;
+}
+
+.recipe-request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #ffe4c4;
+    padding-inline: 20px;
+    border-radius: 15px;
+}
