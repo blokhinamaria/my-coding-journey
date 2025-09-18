@@ -5,7 +5,7 @@
     gap: 40px;
 }
 
-.main-project-container > button {
+.main-project-container button {
     background-color: #23252C;
     border: 1px solid white;
     padding-inline: 50px;
@@ -13,7 +13,7 @@
     border-radius: 20px;
 }
 
-.main-project-container > button > a {
+.main-project-container a {
     font-family: sans-serif;
     font-weight: 800;
     font-size: 1rem;
