@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Router basename='/my-coding-journey'>
+      <Router>
         <Routes>
           <Route index path='/' element={<Main />}></Route>
           <Route path='/chef-claude' element={<ChefClaude />}></Route>
