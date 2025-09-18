@@ -1,13 +1,4 @@
-* {
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-    font-weight: 400;
-}
 
-body {
-    background-color: #23252C;
-    color: white;
-}
 
 .businessCardMain {
     background-color: #1A1B21;
@@ -18,35 +9,35 @@ body {
     text-align: center;
 }
 
-.image-container {
+.businessCardMain > .image-container {
     width: 100%;
     height: 317px;
     overflow: hidden;
 }
 
-.image-container > img {
+.businessCardMain > .image-container > img {
     object-fit: cover;
     width: 100%;
 }
 
-h1 {
+.businessCardMain > h1 {
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 0;
 }
 
-h2 {
+.businessCardMain > h2 {
     font-size: 0.8rem;
     color: #F3BF99;
     margin: 0;
 }
 
-a {
+.businessCardMain > a {
     font-size: 0.65rem;
     color: #F5F5F5;
 }
 
-.button-container {
+.businessCardMain > .button-container {
     display: flex;
     margin-block: 15px;
     padding-inline: 30px;
@@ -54,7 +45,7 @@ a {
     gap: 20px;
 }
 
-button {
+.businessCardMain > button {
     width: 100%;
     border-radius: 6px;
     border-width: 1px;
@@ -69,36 +60,36 @@ button {
     padding-left: 11px;
 }
 
-svg {
+.businessCardMain > svg {
     width: 22px;
 }
 
-.linkedin-button {
+.businessCardMain > .linkedin-button {
     background-color: #5093E2;
 }
 
-.github-button {
+.businessCardMain > .github-button {
     background-color: white;
     color: #1A1B21;
 }
 
-.about {
+.businessCardMain > .about {
     padding-inline: 30px;
     margin-block: 25px;
 }
 
-h3 {
+.businessCardMain > h3 {
     text-align: left;
     font-size: 1rem;
     font-weight: 700;
 }
 
-p {
+.businessCardMain > p {
     font-size: 0.64rem;
     text-align: left;
 }
 
-footer {
+.businessCardMain > footer {
     background-color: #161619;
     height: 60px;
     display: flex;

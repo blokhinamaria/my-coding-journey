@@ -6,10 +6,9 @@
     overflow: hidden;
     background-color: white;
     color: #2B283A;
-   
 }
 
-header {
+.travelJournalMai > header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +18,19 @@ header {
     margin-block-end: 50px;
 }
 
-.headerIcon {
+.travelJournalMai > .headerIcon {
     width: 25px;
     margin-inline-end: 7px;
 }
 
-article.journalEntry {
+.travelJournalMai > article.journalEntry {
     display: flex;
     max-width: 600px;
     margin-inline: auto;
     margin-block-end: 36px;
 }
 
-.imageContainer {
+.travelJournalMai > .imageContainer {
     width: 125px;
     height: 168px;
     overflow: hidden;
@@ -40,48 +39,48 @@ article.journalEntry {
     flex-shrink: 0;
 }
 
-.imageContainer > img {
+.travelJournalMai > .imageContainer > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.travelJournalLocation {
+.travelJournalMai > .travelJournalLocation {
     display: flex;
     align-items: center;
 }
 
-.travelJournalLocation > img{
+.travelJournalMai > .travelJournalLocation > img{
     width: 7px;
     margin-inline-end: 4px;
 }
 
-.travelJournalLocation span.country {
+.travelJournalMai > .travelJournalLocation span.country {
     text-transform: uppercase;
     font-size: 0.7rem;
     margin-right: 12px;
 }
 
-.travelJournalLocation a {
+.travelJournalMai > .travelJournalLocation a {
     color: #2B283A;
     font-size: 0.7rem;
 }
 
-.travelJournalLocation a:visited {
+.travelJournalMai > .travelJournalLocation a:visited {
     color: #918E9B;
 }
 
-.travelJournalInfo h1 {
+.travelJournalMai > .travelJournalInfo h1 {
     margin-top: 7px;
     margin-bottom: 17px;
 }
 
-.travelJournalInfo h2 {
+.travelJournalMai > .travelJournalInfo h2 {
     font-weight: bold;
     color: #2B283A;
 }
 
-.travelJournalInfo p {
+.travelJournalMai > .travelJournalInfo p {
     line-height: 1.5;
     font-size: 0.8rem;
     overflow: hidden;

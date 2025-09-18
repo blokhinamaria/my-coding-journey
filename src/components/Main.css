@@ -1,0 +1,27 @@
+
+.main-project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-project-container > button {
+    background-color: #23252C;
+    border: 1px solid white;
+    padding-inline: 50px;
+    padding-block: 20px;
+    border-radius: 20px;
+}
+
+.main-project-container > button > a {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main-project-container > button:hover {
+    background-color: #2B283A;
+}
