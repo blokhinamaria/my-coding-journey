@@ -1,0 +1,42 @@
+.color-picker-main {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    height: 550px;
+}
+
+.color-picker-main header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color-picker-main input[type="color"] {
+    width: 51px;
+    height: 34px;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.color-picker-main #colors {
+    width: 100%;
+}
+
+.color-picker-main .swatch {
+    height: 420px;
+    width: 110px;
+    background-color: aqua;
+}
+
+.color-picker-main .codes-list {
+    height: 45px;
+    width: 100%;
+    background-color: azure;
+}
+
+.color-picker-main p {
+    margin: 0;
+}
+
+.color-picker-main .color-blocks {
+    display: flex;
+}

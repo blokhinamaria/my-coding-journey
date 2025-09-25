@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         img: {
-            src: "src/components/TravelJournal/assets/inhotim.jpg",
+            src: "/assets/travel-journal-assets/inhotim.jpg",
             alt: "Inhotim"
         },
         title: "Inhotim Museum",
@@ -14,10 +14,10 @@ export default [
     {
         id: 2,
         img: {
-            src: "src/components/TravelJournal/assets/ourupreto.jpg",
+            src: "/assets/travel-journal-assets/ourupreto.jpg",
             alt: "Ouru Preto"
         },
-        title: "Ouru Preto",
+        title: "Ouro Preto",
         country: "Brazil",
         googleMapsLink: "https://maps.app.goo.gl/dF2Q2QgafPQUz5mb7",
         dates: "July, 2025",
@@ -26,7 +26,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "src/components/TravelJournal/assets/brasilia.jpg",
+            src: "/assets/travel-journal-assets/brasilia.jpg",
             alt: "Brasilia"
         },
         title: "Brasilia",
@@ -38,7 +38,7 @@ export default [
     {
         id: 4,
         img: {
-            src: "src/components/TravelJournal/assets/istanbul.jpg",
+            src: "/assets/travel-journal-assets/istanbul.jpg",
             alt: "Istanbul"
         },
         title: "Istanbul",

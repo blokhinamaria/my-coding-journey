@@ -1,5 +1,5 @@
 
-.travelJournalMain {
+.travel-journal-main {
     width: 800px;
     border: 2px solid #F55A5A;
     border-radius: 20px;
@@ -8,7 +8,7 @@
     color: #2B283A;
 }
 
-.travelJournalMai > header {
+.travel-journal-main > header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,19 +18,19 @@
     margin-block-end: 50px;
 }
 
-.travelJournalMai > .headerIcon {
+.travel-journal-main .headerIcon {
     width: 25px;
     margin-inline-end: 7px;
 }
 
-.travelJournalMai > article.journalEntry {
+.travel-journal-main article.journalEntry {
     display: flex;
     max-width: 600px;
     margin-inline: auto;
     margin-block-end: 36px;
 }
 
-.travelJournalMai > .imageContainer {
+.travel-journal-main .imageContainer {
     width: 125px;
     height: 168px;
     overflow: hidden;
@@ -39,48 +39,48 @@
     flex-shrink: 0;
 }
 
-.travelJournalMai > .imageContainer > img {
+.travel-journal-main .imageContainer > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.travelJournalMai > .travelJournalLocation {
+.travel-journal-main > .travelJournalLocation {
     display: flex;
     align-items: center;
 }
 
-.travelJournalMai > .travelJournalLocation > img{
+.travel-journal-main .travelJournalLocation > img{
     width: 7px;
     margin-inline-end: 4px;
 }
 
-.travelJournalMai > .travelJournalLocation span.country {
+.travel-journal-main .travelJournalLocation span.country {
     text-transform: uppercase;
     font-size: 0.7rem;
     margin-right: 12px;
 }
 
-.travelJournalMai > .travelJournalLocation a {
+.travel-journal-main .travelJournalLocation a {
     color: #2B283A;
     font-size: 0.7rem;
 }
 
-.travelJournalMai > .travelJournalLocation a:visited {
+.travel-journal-main .travelJournalLocation a:visited {
     color: #918E9B;
 }
 
-.travelJournalMai > .travelJournalInfo h1 {
+.travel-journal-main .travelJournalInfo h1 {
     margin-top: 7px;
     margin-bottom: 17px;
 }
 
-.travelJournalMai > .travelJournalInfo h2 {
+.travel-journal-main .travelJournalInfo h2 {
     font-weight: bold;
     color: #2B283A;
 }
 
-.travelJournalMai > .travelJournalInfo p {
+.travel-journal-main .travelJournalInfo p {
     line-height: 1.5;
     font-size: 0.8rem;
     overflow: hidden;

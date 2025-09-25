@@ -7,9 +7,10 @@ export default function Main() {
         <main>
             <h1>Projects</h1>
             <div className='main-project-container'>
-                <button><Link to="/chef-claude">Chef Claud</Link></button>
-                <button><Link to="/travel-journal">Travel Journal</Link></button>
-                <button><Link to="/business-card">Business Card</Link></button>
+                <Link to="/chef-claude"><button>Chef Claud</button></Link>
+                <Link to="/travel-journal"><button>Travel Journal</button></Link>
+                <Link to="/business-card"><button>Business Card</button></Link>
+                <Link to="/color-picker"><button>Color Picker</button></Link>
             </div>
         </main>
     )
