@@ -10,7 +10,7 @@ export default function Entry(props) {
             </div>
             <section className="travelJournalInfo">
                 <div className="travelJournalLocation">
-                    <img src="src/components/TravelJournal/assets/marker.png" alt="map marker"/>
+                    <img src="/assets/travel-journal-assets/marker.png" alt="map marker"/>
                     <span className="country">{props.country}</span>
                     <a className="googleMapLink" href={props.googleMapsLink}>View on Google Maps</a>
                 </div>

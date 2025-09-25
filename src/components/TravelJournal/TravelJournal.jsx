@@ -14,9 +14,9 @@ const entryElements = data.map((entry) => {
 )
 
     return (
-        <main className='travelJournalMain'>
+        <main className='travel-journal-main'>
             <header>
-                <img className="headerIcon" src="src/components/TravelJournal/assets/globe.png" alt="globe icon" />
+                <img className="headerIcon" src="/assets/travel-journal-assets/globe.png" alt="globe icon" />
                 <span>my travel journal, 2025</span>
             </header>
             {entryElements}
