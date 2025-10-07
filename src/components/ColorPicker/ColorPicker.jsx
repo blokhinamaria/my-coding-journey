@@ -34,6 +34,15 @@ export default function ColorPicker() {
         }
     )  
 
+    // const swatchCodes = document.querySelectorAll('.swatch-code');
+    // for (const code of swatchCodes) {
+    //     code.addEventListener('click', copyContent)
+    // }
+
+    // function copyContent(e) {
+    //     console.log(`Clicked on ${e.target}`);
+    // }
+
     return (
         <main className="color-picker-main">
             <header>
