@@ -11,6 +11,7 @@ export default function Main() {
                 <Link to="/travel-journal"><button>Travel Journal</button></Link>
                 <Link to="/business-card"><button>Business Card</button></Link>
                 <Link to="/color-picker"><button>Color Picker</button></Link>
+                <Link to="/movie-watchlist"><button>Movie Watchlist</button></Link>
             </div>
         </main>
     )
